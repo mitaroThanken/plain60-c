@@ -141,79 +141,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power_GND
+# plain60-c-rescue_ATmega32U4-atmel
 #
-DEF Power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Power_VBUS
-#
-DEF Power_VBUS #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Power_VBUS" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VBUS 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Power_VCC
-#
-DEF Power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Type-C_HRO-TYPE-C-31-M-12
-#
-DEF Type-C_HRO-TYPE-C-31-M-12 USB 0 40 Y Y 1 F N
-F0 "USB" -200 650 60 H V C CNN
-F1 "Type-C_HRO-TYPE-C-31-M-12" -400 -50 60 V V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -450 600 -350 -700 0 1 0 f
-S 0 -700 -350 600 0 1 0 f
-X GND 1 100 550 100 L 50 50 1 1 I
-X CC2 10 100 -350 100 L 50 50 1 1 I
-X VBUS 11 100 -450 100 L 50 50 1 1 I
-X GND 12 100 -550 100 L 50 50 1 1 I
-X SHIELD 13 100 -650 100 L 50 50 1 1 I
-X VBUS 2 100 450 100 L 50 50 1 1 I
-X SBU2 3 100 350 100 L 50 50 1 1 I
-X CC1 4 100 250 100 L 50 50 1 1 I
-X DN2 5 100 150 100 L 50 50 1 1 I
-X DP1 6 100 50 100 L 50 50 1 1 I
-X DN1 7 100 -50 100 L 50 50 1 1 I
-X DP2 8 100 -150 100 L 50 50 1 1 I
-X SBU1 9 100 -250 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# atmel_ATmega32U4
-#
-DEF atmel_ATmega32U4 U 0 40 Y Y 1 F N
+DEF plain60-c-rescue_ATmega32U4-atmel U 0 40 Y Y 1 F N
 F0 "U" -900 1700 50 H V C CNN
-F1 "atmel_ATmega32U4" -650 -1550 50 H V C CNN
+F1 "plain60-c-rescue_ATmega32U4-atmel" -650 -1550 50 H V C CNN
 F2 "" 1200 1100 50 H I C CNN
 F3 "" 1200 1100 50 H I C CNN
 $FPLIST
@@ -269,11 +201,50 @@ X (SCLK/PCINT1)PB1 9 1200 1450 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_KEYSW
+# plain60-c-rescue_GND-Power
 #
-DEF ~keyboard_parts_KEYSW K? 0 40 Y Y 1 F N
+DEF plain60-c-rescue_GND-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "plain60-c-rescue_GND-Power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# plain60-c-rescue_HRO-TYPE-C-31-M-12-Type-C
+#
+DEF plain60-c-rescue_HRO-TYPE-C-31-M-12-Type-C USB 0 40 Y Y 1 F N
+F0 "USB" -200 650 60 H V C CNN
+F1 "plain60-c-rescue_HRO-TYPE-C-31-M-12-Type-C" -400 -50 60 V V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -450 600 -350 -700 0 1 0 f
+S 0 -700 -350 600 0 1 0 f
+X GND 1 100 550 100 L 50 50 1 1 I
+X CC2 10 100 -350 100 L 50 50 1 1 I
+X VBUS 11 100 -450 100 L 50 50 1 1 I
+X GND 12 100 -550 100 L 50 50 1 1 I
+X SHIELD 13 100 -650 100 L 50 50 1 1 I
+X VBUS 2 100 450 100 L 50 50 1 1 I
+X SBU2 3 100 350 100 L 50 50 1 1 I
+X CC1 4 100 250 100 L 50 50 1 1 I
+X DN2 5 100 150 100 L 50 50 1 1 I
+X DP1 6 100 50 100 L 50 50 1 1 I
+X DN1 7 100 -50 100 L 50 50 1 1 I
+X DP2 8 100 -150 100 L 50 50 1 1 I
+X SBU1 9 100 -250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# plain60-c-rescue_KEYSW-keyboard_parts
+#
+DEF ~plain60-c-rescue_KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "keyboard_parts_KEYSW" 0 -100 60 H I C CNN
+F1 "plain60-c-rescue_KEYSW-keyboard_parts" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -285,11 +256,11 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_SW_PUSH
+# plain60-c-rescue_SW_PUSH-keyboard_parts
 #
-DEF keyboard_parts_SW_PUSH SW 0 40 N N 1 F N
+DEF plain60-c-rescue_SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "keyboard_parts_SW_PUSH" 0 -80 50 H V C CNN
+F1 "plain60-c-rescue_SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -300,11 +271,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_USBLC6-2SC6
+# plain60-c-rescue_USBLC6-2SC6-keyboard_parts
 #
-DEF keyboard_parts_USBLC6-2SC6 D 0 40 Y Y 1 F N
+DEF plain60-c-rescue_USBLC6-2SC6-keyboard_parts D 0 40 Y Y 1 F N
 F0 "D" -300 200 50 H V L CNN
-F1 "keyboard_parts_USBLC6-2SC6" -300 -200 50 H V L CNN
+F1 "plain60-c-rescue_USBLC6-2SC6-keyboard_parts" -300 -200 50 H V L CNN
 F2 "" -300 -300 50 H I L CNN
 F3 "" -300 -400 50 H I L CNN
 DRAW
@@ -318,11 +289,40 @@ X I/O1 6 400 100 100 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_XTAL_GND
+# plain60-c-rescue_VBUS-Power
 #
-DEF keyboard_parts_XTAL_GND X 0 40 N N 1 F N
+DEF plain60-c-rescue_VBUS-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "plain60-c-rescue_VBUS-Power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VBUS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# plain60-c-rescue_VCC-Power
+#
+DEF plain60-c-rescue_VCC-Power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "plain60-c-rescue_VCC-Power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# plain60-c-rescue_XTAL_GND-keyboard_parts
+#
+DEF plain60-c-rescue_XTAL_GND-keyboard_parts X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "keyboard_parts_XTAL_GND" 0 -150 60 H V C CNN
+F1 "plain60-c-rescue_XTAL_GND-keyboard_parts" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

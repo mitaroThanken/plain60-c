@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L atmel:ATmega32U4 U1
+L plain60-c-rescue:ATmega32U4-atmel U1
 U 1 1 5C299934
 P 6450 2550
 F 0 "U1" H 6425 4365 50  0000 C CNN
@@ -60,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2000 4800 2100
 $Comp
-L Power:GND #PWR0101
+L plain60-c-rescue:GND-Power #PWR0101
 U 1 1 5C2A073B
 P 4700 2100
 F 0 "#PWR0101" H 4700 1850 50  0001 C CNN
@@ -81,7 +81,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 1100 5100 1100
 $Comp
-L Power:VCC #PWR0103
+L plain60-c-rescue:VCC-Power #PWR0103
 U 1 1 5C2A1F74
 P 5100 900
 F 0 "#PWR0103" H 5100 750 50  0001 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 5100 900 50  0001 C CNN
 $EndComp
 NoConn ~ 5200 1400
 $Comp
-L keyboard_parts:SW_PUSH SW1
+L plain60-c-rescue:SW_PUSH-keyboard_parts SW1
 U 1 1 5C2A2ECD
 P 3600 2500
 F 0 "SW1" H 3600 2755 50  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "" H 3600 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:VCC #PWR0104
+L plain60-c-rescue:VCC-Power #PWR0104
 U 1 1 5C2A3051
 P 3200 2700
 F 0 "#PWR0104" H 3200 2550 50  0001 C CNN
@@ -126,7 +126,7 @@ F 3 "~" H 3600 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:GND #PWR0105
+L plain60-c-rescue:GND-Power #PWR0105
 U 1 1 5C2A4A62
 P 3200 2500
 F 0 "#PWR0105" H 3200 2250 50  0001 C CNN
@@ -165,7 +165,7 @@ F 3 "~" H 7900 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:GND #PWR0106
+L plain60-c-rescue:GND-Power #PWR0106
 U 1 1 5C2ABB1E
 P 8150 3100
 F 0 "#PWR0106" H 8150 2850 50  0001 C CNN
@@ -207,7 +207,7 @@ $EndComp
 Wire Wire Line
 	4800 2100 5200 2100
 $Comp
-L keyboard_parts:XTAL_GND X1
+L plain60-c-rescue:XTAL_GND-keyboard_parts X1
 U 1 1 5C2B3619
 P 4350 3550
 F 0 "X1" H 4350 3842 60  0000 C CNN
@@ -251,7 +251,7 @@ Wire Wire Line
 	4750 4050 4750 3950
 Connection ~ 4350 4050
 $Comp
-L Power:GND #PWR0107
+L plain60-c-rescue:GND-Power #PWR0107
 U 1 1 5C2B6552
 P 4350 4150
 F 0 "#PWR0107" H 4350 3900 50  0001 C CNN
@@ -298,7 +298,7 @@ Connection ~ 5100 3700
 Wire Wire Line
 	5100 3700 5100 3800
 $Comp
-L Power:GND #PWR0108
+L plain60-c-rescue:GND-Power #PWR0108
 U 1 1 5C2BB901
 P 5100 4000
 F 0 "#PWR0108" H 5100 3750 50  0001 C CNN
@@ -312,7 +312,7 @@ Wire Wire Line
 	5100 4000 5100 3900
 Connection ~ 5100 3900
 $Comp
-L Power:VCC #PWR0109
+L plain60-c-rescue:VCC-Power #PWR0109
 U 1 1 5C2BCE9D
 P 1200 1000
 F 0 "#PWR0109" H 1200 850 50  0001 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 1200 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0110
+L plain60-c-rescue:GND-Power #PWR0110
 U 1 1 5C2BD448
 P 1200 1700
 F 0 "#PWR0110" H 1200 1450 50  0001 C CNN
@@ -437,7 +437,7 @@ Wire Wire Line
 	2200 1600 2200 1500
 Connection ~ 1950 1600
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 J1
+L plain60-c-rescue:HRO-TYPE-C-31-M-12-Type-C J1
 U 1 1 5C2DBB52
 P 1650 3300
 F 0 "J1" H 1483 4097 60  0000 C CNN
@@ -448,7 +448,7 @@ F 3 "" H 1650 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0102
+L plain60-c-rescue:GND-Power #PWR0102
 U 1 1 5C2DD665
 P 1850 2750
 F 0 "#PWR0102" H 1850 2500 50  0001 C CNN
@@ -532,7 +532,7 @@ Wire Wire Line
 	3150 3950 3150 4050
 Connection ~ 3150 3950
 $Comp
-L Power:GND #PWR0111
+L plain60-c-rescue:GND-Power #PWR0111
 U 1 1 5C325A37
 P 3150 4050
 F 0 "#PWR0111" H 3150 3800 50  0001 C CNN
@@ -545,7 +545,7 @@ $EndComp
 NoConn ~ 1750 2950
 NoConn ~ 1750 3550
 $Comp
-L Power:VCC #PWR0112
+L plain60-c-rescue:VCC-Power #PWR0112
 U 1 1 5C336DC2
 P 2150 2250
 F 0 "#PWR0112" H 2150 2100 50  0001 C CNN
@@ -564,7 +564,7 @@ Connection ~ 4800 2100
 Wire Wire Line
 	5200 1700 4700 1700
 $Comp
-L Power:VCC #PWR0113
+L plain60-c-rescue:VCC-Power #PWR0113
 U 1 1 5C3A4639
 P 4700 1700
 F 0 "#PWR0113" H 4700 1550 50  0001 C CNN
@@ -575,7 +575,7 @@ F 3 "" H 4700 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K1
+L plain60-c-rescue:KEYSW-keyboard_parts K1
 U 1 1 5C3F9B1F
 P 1550 5750
 F 0 "K1" H 1550 5750 60  0000 C CNN
@@ -601,7 +601,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 5750 1250 5750
 $Comp
-L keyboard_parts:KEYSW K2
+L plain60-c-rescue:KEYSW-keyboard_parts K2
 U 1 1 5C4CC744
 P 2350 5750
 F 0 "K2" H 2350 5750 60  0000 C CNN
@@ -627,7 +627,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 5750 2050 5750
 $Comp
-L keyboard_parts:KEYSW K3
+L plain60-c-rescue:KEYSW-keyboard_parts K3
 U 1 1 5C4D0021
 P 3150 5750
 F 0 "K3" H 3150 5750 60  0000 C CNN
@@ -653,7 +653,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 5750 2850 5750
 $Comp
-L keyboard_parts:KEYSW K4
+L plain60-c-rescue:KEYSW-keyboard_parts K4
 U 1 1 5C4D3033
 P 3950 5750
 F 0 "K4" H 3950 5750 60  0000 C CNN
@@ -679,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 5750 3650 5750
 $Comp
-L keyboard_parts:KEYSW K5
+L plain60-c-rescue:KEYSW-keyboard_parts K5
 U 1 1 5C4D6AD6
 P 4750 5750
 F 0 "K5" H 4750 5750 60  0000 C CNN
@@ -705,7 +705,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 5750 4450 5750
 $Comp
-L keyboard_parts:KEYSW K6
+L plain60-c-rescue:KEYSW-keyboard_parts K6
 U 1 1 5C4E2E6B
 P 5550 5750
 F 0 "K6" H 5550 5750 60  0000 C CNN
@@ -731,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 5750 5250 5750
 $Comp
-L keyboard_parts:KEYSW K7
+L plain60-c-rescue:KEYSW-keyboard_parts K7
 U 1 1 5C4E2E79
 P 6350 5750
 F 0 "K7" H 6350 5750 60  0000 C CNN
@@ -757,7 +757,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 5750 6050 5750
 $Comp
-L keyboard_parts:KEYSW K8
+L plain60-c-rescue:KEYSW-keyboard_parts K8
 U 1 1 5C4E2E87
 P 7150 5750
 F 0 "K8" H 7150 5750 60  0000 C CNN
@@ -783,7 +783,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 5750 6850 5750
 $Comp
-L keyboard_parts:KEYSW K9
+L plain60-c-rescue:KEYSW-keyboard_parts K9
 U 1 1 5C4E2E95
 P 7950 5750
 F 0 "K9" H 7950 5750 60  0000 C CNN
@@ -809,7 +809,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 5750 7650 5750
 $Comp
-L keyboard_parts:KEYSW K10
+L plain60-c-rescue:KEYSW-keyboard_parts K10
 U 1 1 5C4E2EA3
 P 8750 5750
 F 0 "K10" H 8750 5750 60  0000 C CNN
@@ -835,7 +835,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5750 8450 5750
 $Comp
-L keyboard_parts:KEYSW K11
+L plain60-c-rescue:KEYSW-keyboard_parts K11
 U 1 1 5C4EBDB0
 P 9550 5750
 F 0 "K11" H 9550 5750 60  0000 C CNN
@@ -861,7 +861,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 5750 9250 5750
 $Comp
-L keyboard_parts:KEYSW K12
+L plain60-c-rescue:KEYSW-keyboard_parts K12
 U 1 1 5C4EBDBE
 P 10350 5750
 F 0 "K12" H 10350 5750 60  0000 C CNN
@@ -887,7 +887,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 5750 10050 5750
 $Comp
-L keyboard_parts:KEYSW K13
+L plain60-c-rescue:KEYSW-keyboard_parts K13
 U 1 1 5C4EBDCC
 P 11150 5750
 F 0 "K13" H 11150 5750 60  0000 C CNN
@@ -913,7 +913,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 5750 10850 5750
 $Comp
-L keyboard_parts:KEYSW K14
+L plain60-c-rescue:KEYSW-keyboard_parts K14
 U 1 1 5C4EBDDA
 P 11950 5750
 F 0 "K14" H 11950 5750 60  0000 C CNN
@@ -939,7 +939,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 5750 11650 5750
 $Comp
-L keyboard_parts:KEYSW K15
+L plain60-c-rescue:KEYSW-keyboard_parts K15
 U 1 1 5C4EBDE8
 P 12750 5750
 F 0 "K15" H 12750 5750 60  0000 C CNN
@@ -965,7 +965,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 5750 12450 5750
 $Comp
-L keyboard_parts:KEYSW K16
+L plain60-c-rescue:KEYSW-keyboard_parts K16
 U 1 1 5C51AB0B
 P 1550 6350
 F 0 "K16" H 1550 6350 60  0000 C CNN
@@ -991,7 +991,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 6350 1250 6350
 $Comp
-L keyboard_parts:KEYSW K17
+L plain60-c-rescue:KEYSW-keyboard_parts K17
 U 1 1 5C51AB19
 P 2350 6350
 F 0 "K17" H 2350 6350 60  0000 C CNN
@@ -1017,7 +1017,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 6350 2050 6350
 $Comp
-L keyboard_parts:KEYSW K18
+L plain60-c-rescue:KEYSW-keyboard_parts K18
 U 1 1 5C51AB27
 P 3150 6350
 F 0 "K18" H 3150 6350 60  0000 C CNN
@@ -1043,7 +1043,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6350 2850 6350
 $Comp
-L keyboard_parts:KEYSW K19
+L plain60-c-rescue:KEYSW-keyboard_parts K19
 U 1 1 5C51AB35
 P 3950 6350
 F 0 "K19" H 3950 6350 60  0000 C CNN
@@ -1069,7 +1069,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 6350 3650 6350
 $Comp
-L keyboard_parts:KEYSW K20
+L plain60-c-rescue:KEYSW-keyboard_parts K20
 U 1 1 5C51AB43
 P 4750 6350
 F 0 "K20" H 4750 6350 60  0000 C CNN
@@ -1095,7 +1095,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6350 4450 6350
 $Comp
-L keyboard_parts:KEYSW K21
+L plain60-c-rescue:KEYSW-keyboard_parts K21
 U 1 1 5C51AB51
 P 5550 6350
 F 0 "K21" H 5550 6350 60  0000 C CNN
@@ -1121,7 +1121,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 6350 5250 6350
 $Comp
-L keyboard_parts:KEYSW K22
+L plain60-c-rescue:KEYSW-keyboard_parts K22
 U 1 1 5C51AB5F
 P 6350 6350
 F 0 "K22" H 6350 6350 60  0000 C CNN
@@ -1147,7 +1147,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 6350 6050 6350
 $Comp
-L keyboard_parts:KEYSW K23
+L plain60-c-rescue:KEYSW-keyboard_parts K23
 U 1 1 5C51AB6D
 P 7150 6350
 F 0 "K23" H 7150 6350 60  0000 C CNN
@@ -1173,7 +1173,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6350 6850 6350
 $Comp
-L keyboard_parts:KEYSW K24
+L plain60-c-rescue:KEYSW-keyboard_parts K24
 U 1 1 5C51AB7B
 P 7950 6350
 F 0 "K24" H 7950 6350 60  0000 C CNN
@@ -1199,7 +1199,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 6350 7650 6350
 $Comp
-L keyboard_parts:KEYSW K25
+L plain60-c-rescue:KEYSW-keyboard_parts K25
 U 1 1 5C51AB89
 P 8750 6350
 F 0 "K25" H 8750 6350 60  0000 C CNN
@@ -1225,7 +1225,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6350 8450 6350
 $Comp
-L keyboard_parts:KEYSW K26
+L plain60-c-rescue:KEYSW-keyboard_parts K26
 U 1 1 5C51AB97
 P 9550 6350
 F 0 "K26" H 9550 6350 60  0000 C CNN
@@ -1251,7 +1251,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 6350 9250 6350
 $Comp
-L keyboard_parts:KEYSW K27
+L plain60-c-rescue:KEYSW-keyboard_parts K27
 U 1 1 5C51ABA5
 P 10350 6350
 F 0 "K27" H 10350 6350 60  0000 C CNN
@@ -1277,7 +1277,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 6350 10050 6350
 $Comp
-L keyboard_parts:KEYSW K28
+L plain60-c-rescue:KEYSW-keyboard_parts K28
 U 1 1 5C51ABB3
 P 11150 6350
 F 0 "K28" H 11150 6350 60  0000 C CNN
@@ -1303,7 +1303,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 6350 10850 6350
 $Comp
-L keyboard_parts:KEYSW K29
+L plain60-c-rescue:KEYSW-keyboard_parts K29
 U 1 1 5C51ABC1
 P 11950 6350
 F 0 "K29" H 11950 6350 60  0000 C CNN
@@ -1329,7 +1329,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 6350 11650 6350
 $Comp
-L keyboard_parts:KEYSW K31
+L plain60-c-rescue:KEYSW-keyboard_parts K31
 U 1 1 5C533DB2
 P 1550 7150
 F 0 "K31" H 1550 7150 60  0000 C CNN
@@ -1355,7 +1355,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 7150 1250 7150
 $Comp
-L keyboard_parts:KEYSW K32
+L plain60-c-rescue:KEYSW-keyboard_parts K32
 U 1 1 5C533DC0
 P 2350 7150
 F 0 "K32" H 2350 7150 60  0000 C CNN
@@ -1381,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 7150 2050 7150
 $Comp
-L keyboard_parts:KEYSW K33
+L plain60-c-rescue:KEYSW-keyboard_parts K33
 U 1 1 5C533DCE
 P 3150 7150
 F 0 "K33" H 3150 7150 60  0000 C CNN
@@ -1407,7 +1407,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 7150 2850 7150
 $Comp
-L keyboard_parts:KEYSW K34
+L plain60-c-rescue:KEYSW-keyboard_parts K34
 U 1 1 5C533DDC
 P 3950 7150
 F 0 "K34" H 3950 7150 60  0000 C CNN
@@ -1433,7 +1433,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7150 3650 7150
 $Comp
-L keyboard_parts:KEYSW K35
+L plain60-c-rescue:KEYSW-keyboard_parts K35
 U 1 1 5C533DEA
 P 4750 7150
 F 0 "K35" H 4750 7150 60  0000 C CNN
@@ -1459,7 +1459,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 7150 4450 7150
 $Comp
-L keyboard_parts:KEYSW K36
+L plain60-c-rescue:KEYSW-keyboard_parts K36
 U 1 1 5C533DF8
 P 5550 7150
 F 0 "K36" H 5550 7150 60  0000 C CNN
@@ -1485,7 +1485,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 7150 5250 7150
 $Comp
-L keyboard_parts:KEYSW K37
+L plain60-c-rescue:KEYSW-keyboard_parts K37
 U 1 1 5C533E06
 P 6350 7150
 F 0 "K37" H 6350 7150 60  0000 C CNN
@@ -1511,7 +1511,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 7150 6050 7150
 $Comp
-L keyboard_parts:KEYSW K38
+L plain60-c-rescue:KEYSW-keyboard_parts K38
 U 1 1 5C533E14
 P 7150 7150
 F 0 "K38" H 7150 7150 60  0000 C CNN
@@ -1537,7 +1537,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 7150 6850 7150
 $Comp
-L keyboard_parts:KEYSW K39
+L plain60-c-rescue:KEYSW-keyboard_parts K39
 U 1 1 5C533E22
 P 7950 7150
 F 0 "K39" H 7950 7150 60  0000 C CNN
@@ -1563,7 +1563,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 7150 7650 7150
 $Comp
-L keyboard_parts:KEYSW K40
+L plain60-c-rescue:KEYSW-keyboard_parts K40
 U 1 1 5C533E30
 P 8750 7150
 F 0 "K40" H 8750 7150 60  0000 C CNN
@@ -1589,7 +1589,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 7150 8450 7150
 $Comp
-L keyboard_parts:KEYSW K41
+L plain60-c-rescue:KEYSW-keyboard_parts K41
 U 1 1 5C533E3E
 P 9550 7150
 F 0 "K41" H 9550 7150 60  0000 C CNN
@@ -1615,7 +1615,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 7150 9250 7150
 $Comp
-L keyboard_parts:KEYSW K42
+L plain60-c-rescue:KEYSW-keyboard_parts K42
 U 1 1 5C533E4C
 P 10350 7150
 F 0 "K42" H 10350 7150 60  0000 C CNN
@@ -1641,7 +1641,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 7150 10050 7150
 $Comp
-L keyboard_parts:KEYSW K43
+L plain60-c-rescue:KEYSW-keyboard_parts K43
 U 1 1 5C533E5A
 P 11150 7150
 F 0 "K43" H 11150 7150 60  0000 C CNN
@@ -1667,7 +1667,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 7150 10850 7150
 $Comp
-L keyboard_parts:KEYSW K44
+L plain60-c-rescue:KEYSW-keyboard_parts K44
 U 1 1 5C533E68
 P 11950 7150
 F 0 "K44" H 11950 7150 60  0000 C CNN
@@ -1693,7 +1693,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 7150 11650 7150
 $Comp
-L keyboard_parts:KEYSW K46
+L plain60-c-rescue:KEYSW-keyboard_parts K46
 U 1 1 5C5435B9
 P 1550 7950
 F 0 "K46" H 1550 7950 60  0000 C CNN
@@ -1719,7 +1719,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 7950 1250 7950
 $Comp
-L keyboard_parts:KEYSW K47
+L plain60-c-rescue:KEYSW-keyboard_parts K47
 U 1 1 5C5435C7
 P 2350 7950
 F 0 "K47" H 2350 7950 60  0000 C CNN
@@ -1745,7 +1745,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 7950 2050 7950
 $Comp
-L keyboard_parts:KEYSW K48
+L plain60-c-rescue:KEYSW-keyboard_parts K48
 U 1 1 5C5435D5
 P 3150 7950
 F 0 "K48" H 3150 7950 60  0000 C CNN
@@ -1771,7 +1771,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 7950 2850 7950
 $Comp
-L keyboard_parts:KEYSW K49
+L plain60-c-rescue:KEYSW-keyboard_parts K49
 U 1 1 5C5435E3
 P 3950 7950
 F 0 "K49" H 3950 7950 60  0000 C CNN
@@ -1797,7 +1797,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 7950 3650 7950
 $Comp
-L keyboard_parts:KEYSW K50
+L plain60-c-rescue:KEYSW-keyboard_parts K50
 U 1 1 5C5435F1
 P 4750 7950
 F 0 "K50" H 4750 7950 60  0000 C CNN
@@ -1823,7 +1823,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 7950 4450 7950
 $Comp
-L keyboard_parts:KEYSW K51
+L plain60-c-rescue:KEYSW-keyboard_parts K51
 U 1 1 5C5435FF
 P 5550 7950
 F 0 "K51" H 5550 7950 60  0000 C CNN
@@ -1849,7 +1849,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 7950 5250 7950
 $Comp
-L keyboard_parts:KEYSW K52
+L plain60-c-rescue:KEYSW-keyboard_parts K52
 U 1 1 5C54360D
 P 6350 7950
 F 0 "K52" H 6350 7950 60  0000 C CNN
@@ -1875,7 +1875,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 7950 6050 7950
 $Comp
-L keyboard_parts:KEYSW K53
+L plain60-c-rescue:KEYSW-keyboard_parts K53
 U 1 1 5C54361B
 P 7150 7950
 F 0 "K53" H 7150 7950 60  0000 C CNN
@@ -1901,7 +1901,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 7950 6850 7950
 $Comp
-L keyboard_parts:KEYSW K54
+L plain60-c-rescue:KEYSW-keyboard_parts K54
 U 1 1 5C543629
 P 7950 7950
 F 0 "K54" H 7950 7950 60  0000 C CNN
@@ -1927,7 +1927,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 7950 7650 7950
 $Comp
-L keyboard_parts:KEYSW K55
+L plain60-c-rescue:KEYSW-keyboard_parts K55
 U 1 1 5C543637
 P 8750 7950
 F 0 "K55" H 8750 7950 60  0000 C CNN
@@ -1953,7 +1953,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 7950 8450 7950
 $Comp
-L keyboard_parts:KEYSW K56
+L plain60-c-rescue:KEYSW-keyboard_parts K56
 U 1 1 5C543645
 P 9550 7950
 F 0 "K56" H 9550 7950 60  0000 C CNN
@@ -1979,7 +1979,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 7950 9250 7950
 $Comp
-L keyboard_parts:KEYSW K57
+L plain60-c-rescue:KEYSW-keyboard_parts K57
 U 1 1 5C543653
 P 10350 7950
 F 0 "K57" H 10350 7950 60  0000 C CNN
@@ -2005,7 +2005,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 7950 10050 7950
 $Comp
-L keyboard_parts:KEYSW K58
+L plain60-c-rescue:KEYSW-keyboard_parts K58
 U 1 1 5C543661
 P 11150 7950
 F 0 "K58" H 11150 7950 60  0000 C CNN
@@ -2031,7 +2031,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 7950 10850 7950
 $Comp
-L keyboard_parts:KEYSW K59
+L plain60-c-rescue:KEYSW-keyboard_parts K59
 U 1 1 5C54366F
 P 11950 7950
 F 0 "K59" H 11950 7950 60  0000 C CNN
@@ -2057,7 +2057,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 7950 11650 7950
 $Comp
-L keyboard_parts:KEYSW K61
+L plain60-c-rescue:KEYSW-keyboard_parts K61
 U 1 1 5C555DE4
 P 1550 8750
 F 0 "K61" H 1550 8750 60  0000 C CNN
@@ -2083,7 +2083,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 8750 1250 8750
 $Comp
-L keyboard_parts:KEYSW K62
+L plain60-c-rescue:KEYSW-keyboard_parts K62
 U 1 1 5C555DF2
 P 2350 8750
 F 0 "K62" H 2350 8750 60  0000 C CNN
@@ -2109,7 +2109,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 8750 2050 8750
 $Comp
-L keyboard_parts:KEYSW K63
+L plain60-c-rescue:KEYSW-keyboard_parts K63
 U 1 1 5C555E00
 P 3150 8750
 F 0 "K63" H 3150 8750 60  0000 C CNN
@@ -2135,7 +2135,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 8750 2850 8750
 $Comp
-L keyboard_parts:KEYSW K67
+L plain60-c-rescue:KEYSW-keyboard_parts K67
 U 1 1 5C555E38
 P 6350 8750
 F 0 "K67" H 6350 8750 60  0000 C CNN
@@ -2161,7 +2161,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 8750 6050 8750
 $Comp
-L keyboard_parts:KEYSW K72
+L plain60-c-rescue:KEYSW-keyboard_parts K72
 U 1 1 5C555E7E
 P 10350 8750
 F 0 "K72" H 10350 8750 60  0000 C CNN
@@ -2187,7 +2187,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 8750 10050 8750
 $Comp
-L keyboard_parts:KEYSW K73
+L plain60-c-rescue:KEYSW-keyboard_parts K73
 U 1 1 5C555E8C
 P 11150 8750
 F 0 "K73" H 11150 8750 60  0000 C CNN
@@ -2213,7 +2213,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 8750 10850 8750
 $Comp
-L keyboard_parts:KEYSW K74
+L plain60-c-rescue:KEYSW-keyboard_parts K74
 U 1 1 5C555E9A
 P 11950 8750
 F 0 "K74" H 11950 8750 60  0000 C CNN
@@ -2319,7 +2319,7 @@ col13
 Text GLabel 7650 3900 2    39   Input ~ 0
 col14
 $Comp
-L keyboard_parts:KEYSW K15-1
+L plain60-c-rescue:KEYSW-keyboard_parts K15-1
 U 1 1 5C7ED068
 P 12750 5550
 F 0 "K15-1" H 12750 5550 60  0000 C CNN
@@ -2330,7 +2330,7 @@ F 3 "" H 12750 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K31-1
+L plain60-c-rescue:KEYSW-keyboard_parts K31-1
 U 1 1 5C80A9A3
 P 1550 6950
 F 0 "K31-1" H 1550 6950 60  0000 C CNN
@@ -2341,7 +2341,7 @@ F 3 "" H 1550 6950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K44-1
+L plain60-c-rescue:KEYSW-keyboard_parts K44-1
 U 1 1 5C818730
 P 11950 6950
 F 0 "K44-1" H 11950 6950 60  0000 C CNN
@@ -2352,7 +2352,7 @@ F 3 "" H 11950 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K46-1
+L plain60-c-rescue:KEYSW-keyboard_parts K46-1
 U 1 1 5C826264
 P 1550 7750
 F 0 "K46-1" H 1550 7750 60  0000 C CNN
@@ -2363,7 +2363,7 @@ F 3 "" H 1550 7750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K58-1
+L plain60-c-rescue:KEYSW-keyboard_parts K58-1
 U 1 1 5C8265DB
 P 11150 7750
 F 0 "K58-1" H 11150 7750 60  0000 C CNN
@@ -2374,7 +2374,7 @@ F 3 "" H 11150 7750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K61-1
+L plain60-c-rescue:KEYSW-keyboard_parts K61-1
 U 1 1 5C832FF7
 P 1550 8550
 F 0 "K61-1" H 1550 8550 60  0000 C CNN
@@ -2385,7 +2385,7 @@ F 3 "" H 1550 8550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K62-1
+L plain60-c-rescue:KEYSW-keyboard_parts K62-1
 U 1 1 5C833459
 P 2350 8550
 F 0 "K62-1" H 2350 8550 60  0000 C CNN
@@ -2396,7 +2396,7 @@ F 3 "" H 2350 8550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K63-1
+L plain60-c-rescue:KEYSW-keyboard_parts K63-1
 U 1 1 5C83396D
 P 3150 8550
 F 0 "K63-1" H 3150 8550 60  0000 C CNN
@@ -2407,7 +2407,7 @@ F 3 "" H 3150 8550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K67-1
+L plain60-c-rescue:KEYSW-keyboard_parts K67-1
 U 1 1 5C833E91
 P 6350 8550
 F 0 "K67-1" H 6350 8550 60  0000 C CNN
@@ -2418,7 +2418,7 @@ F 3 "" H 6350 8550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K72-1
+L plain60-c-rescue:KEYSW-keyboard_parts K72-1
 U 1 1 5C834723
 P 10350 8550
 F 0 "K72-1" H 10350 8550 60  0000 C CNN
@@ -2429,7 +2429,7 @@ F 3 "" H 10350 8550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K73-1
+L plain60-c-rescue:KEYSW-keyboard_parts K73-1
 U 1 1 5C834C5A
 P 11150 8550
 F 0 "K73-1" H 11150 8550 60  0000 C CNN
@@ -2440,7 +2440,7 @@ F 3 "" H 11150 8550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K74-1
+L plain60-c-rescue:KEYSW-keyboard_parts K74-1
 U 1 1 5C835078
 P 11950 8550
 F 0 "K74-1" H 11950 8550 60  0000 C CNN
@@ -2887,7 +2887,7 @@ Connection ~ 13050 5550
 Wire Wire Line
 	13050 5550 13050 5150
 $Comp
-L keyboard_parts:KEYSW K71
+L plain60-c-rescue:KEYSW-keyboard_parts K71
 U 1 1 5CB7E685
 P 9550 8750
 F 0 "K71" H 9550 8750 60  0000 C CNN
@@ -2930,7 +2930,7 @@ F 3 "~" H 9250 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0114
+L plain60-c-rescue:GND-Power #PWR0114
 U 1 1 5C2A8B86
 P 9050 1000
 F 0 "#PWR0114" H 9050 750 50  0001 C CNN
@@ -2952,7 +2952,7 @@ F 3 "~" H 9250 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0115
+L plain60-c-rescue:GND-Power #PWR0115
 U 1 1 5C2AA559
 P 9050 1250
 F 0 "#PWR0115" H 9050 1000 50  0001 C CNN
@@ -2974,7 +2974,7 @@ F 3 "~" H 9250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0116
+L plain60-c-rescue:GND-Power #PWR0116
 U 1 1 5C2CD85F
 P 9050 1500
 F 0 "#PWR0116" H 9050 1250 50  0001 C CNN
@@ -2996,7 +2996,7 @@ F 3 "~" H 9250 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0117
+L plain60-c-rescue:GND-Power #PWR0117
 U 1 1 5C2F088F
 P 9050 1750
 F 0 "#PWR0117" H 9050 1500 50  0001 C CNN
@@ -3018,7 +3018,7 @@ F 3 "~" H 9250 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0118
+L plain60-c-rescue:GND-Power #PWR0118
 U 1 1 5C31392F
 P 9050 2000
 F 0 "#PWR0118" H 9050 1750 50  0001 C CNN
@@ -3040,7 +3040,7 @@ F 3 "~" H 9250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0119
+L plain60-c-rescue:GND-Power #PWR0119
 U 1 1 5C3372CE
 P 9050 2250
 F 0 "#PWR0119" H 9050 2000 50  0001 C CNN
@@ -3076,7 +3076,7 @@ MISO
 Text GLabel 3050 1150 0    39   Input ~ 0
 RST
 $Comp
-L Power:GND #PWR0120
+L plain60-c-rescue:GND-Power #PWR0120
 U 1 1 5CF2FBD0
 P 3550 1150
 F 0 "#PWR0120" H 3550 900 50  0001 C CNN
@@ -3087,7 +3087,7 @@ F 3 "" H 3550 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Power:VCC #PWR0121
+L plain60-c-rescue:VCC-Power #PWR0121
 U 1 1 5CF30136
 P 3550 950
 F 0 "#PWR0121" H 3550 800 50  0001 C CNN
@@ -3120,7 +3120,7 @@ F 3 "~" H 8350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0122
+L plain60-c-rescue:GND-Power #PWR0122
 U 1 1 5C2D8C50
 P 8150 1200
 F 0 "#PWR0122" H 8150 950 50  0001 C CNN
@@ -3131,7 +3131,7 @@ F 3 "" H 8150 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:VCC #PWR0123
+L plain60-c-rescue:VCC-Power #PWR0123
 U 1 1 5C366A5B
 P 8150 1450
 F 0 "#PWR0123" H 8150 1300 50  0001 C CNN
@@ -3179,7 +3179,7 @@ F 3 "~" H 2150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:USBLC6-2SC6 U2
+L plain60-c-rescue:USBLC6-2SC6-keyboard_parts U2
 U 1 1 5C2DB6C2
 P 3300 1850
 F 0 "U2" H 3300 2175 50  0000 C CNN
@@ -3195,7 +3195,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 1950 3900 1950
 $Comp
-L Power:VBUS #PWR0124
+L plain60-c-rescue:VBUS-Power #PWR0124
 U 1 1 5C3D9DD9
 P 2250 2850
 F 0 "#PWR0124" H 2250 2700 50  0001 C CNN
@@ -3206,7 +3206,7 @@ F 3 "" H 2250 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power:VBUS #PWR0125
+L plain60-c-rescue:VBUS-Power #PWR0125
 U 1 1 5C3DA9BE
 P 3700 1850
 F 0 "#PWR0125" H 3700 1700 50  0001 C CNN
@@ -3219,7 +3219,7 @@ $EndComp
 Wire Wire Line
 	2150 2850 2250 2850
 $Comp
-L Power:GND #PWR0126
+L plain60-c-rescue:GND-Power #PWR0126
 U 1 1 5C424A1C
 P 2900 1850
 F 0 "#PWR0126" H 2900 1600 50  0001 C CNN
@@ -3253,7 +3253,7 @@ F 3 "~" H 10250 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0127
+L plain60-c-rescue:GND-Power #PWR0127
 U 1 1 5C59E1D1
 P 10050 1000
 F 0 "#PWR0127" H 10050 750 50  0001 C CNN
@@ -3275,7 +3275,7 @@ F 3 "~" H 10250 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0128
+L plain60-c-rescue:GND-Power #PWR0128
 U 1 1 5C5EA792
 P 10050 1250
 F 0 "#PWR0128" H 10050 1000 50  0001 C CNN
@@ -3297,7 +3297,7 @@ F 3 "~" H 10250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power:GND #PWR0129
+L plain60-c-rescue:GND-Power #PWR0129
 U 1 1 5C610569
 P 10050 1500
 F 0 "#PWR0129" H 10050 1250 50  0001 C CNN
